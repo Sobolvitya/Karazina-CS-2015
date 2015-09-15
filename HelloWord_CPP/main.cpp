@@ -1,8 +1,10 @@
-// Делаем, чтом сообщение не пропадало сразу
+// Немного синтаксическоого сахара
 #include <iostream> 
+using namespace std; //упрощаем использование std
 
 int main()
 {
-	std::cout << "Hello, World!" << std::endl; //+перевод на нновую строку
-	std::cin.get(); // ждем Enter
+	cout << "Hello, World!" << endl; 
+	cin.get(); // ждем Enter
+	return 0; //работает и без него, но по канонам жанра положено
 }
