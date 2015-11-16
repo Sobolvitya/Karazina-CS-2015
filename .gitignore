@@ -18,9 +18,9 @@ local.properties
 .loadpath
 
 # Excel files
-.xls
-.xlsm
-.xlsx
+*.xls
+*.xlsm
+*.xlsx
 
 # External tool builders
 .externalToolBuilders/
