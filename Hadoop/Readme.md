@@ -83,6 +83,8 @@ C:\deploy>
 
 ### Лаба 2 - MapReduce, срок до 29 апреля, 15 баллов.
 
+Написать MapReduce задачу, которая посчитает количество "Attribute, Case and Vote Lines" для [этого датасета](https://archive.ics.uci.edu/ml/datasets/Anonymous+Microsoft+Web+Data). Описание датасета там-же, но [на всякий случай](https://archive.ics.uci.edu/ml/machine-learning-databases/anonymous/anonymous-msweb.info).
+
 Инструкции по написанию программ для Map-Reduce можно посмотреть [здесь](http://www.tutorialspoint.com/hadoop/hadoop_mapreduce.htm).
 
 Несколько моментов, которые для меня сначала были проблематичны:
