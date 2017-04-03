@@ -51,7 +51,7 @@ val file = sc.textFile("hdfs://localhost:9000/mr_test/input/anonymous-msweb.data
 
 В совокупности, вам надо будет применить [Spark SQL](http://spark.apache.org/docs/latest/sql-programming-guide.html) - достаточно формально, и [Spark Streaming](http://spark.apache.org/docs/latest/streaming-programming-guide.html) - чуть подробнее.
 
-Для того, чтоб подключиться к твиттеру, для начала надо завести там аккаунт и получить (Twitter API Credentials)[https://databricks-training.s3.amazonaws.com/realtime-processing-with-spark-streaming.html#twitter-credential-setup].
+Для того, чтоб подключиться к твиттеру, для начала надо завести там аккаунт и получить [Twitter API Credentials](https://databricks-training.s3.amazonaws.com/realtime-processing-with-spark-streaming.html#twitter-credential-setup).
 
 В Java и Scala стриминг из твиттера включен в Spark, [org.apache.spark.streaming.twitter](https://spark.apache.org/docs/1.6.2/streaming-programming-guide.html#advanced-sources) (правда эта библиотека вроде как не включена в стандартный пакет, ее надо доставлять отдельно, через Maven - у меня не получилось).
 
